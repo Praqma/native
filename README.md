@@ -37,19 +37,19 @@ See [native-example-gradle](https://github.com/Praqma/native-example-gradle/) re
 
 See [native-example-make](https://github.com/Praqma/native-example-make/) repository.
 
-* Maven
+<!-- * Maven
 
 ![CircleCI](https://circleci.com/gh/Praqma/native-example-maven.png?style=shield&circle-token=df3dc5f6efbc2a267f7805f05a5e91d2878be9fd)
 ![TravisCI Status](https://travis-ci.org/Praqma/native-example-maven.svg?branch=master)
 
-See [native-example-maven](https://github.com/Praqma/native-example-maven/) repository.
+See [native-example-maven](https://github.com/Praqma/native-example-maven/) repository. -->
 
-* Pants
+<!-- * Pants
 
 ![CircleCI](https://circleci.com/gh/Praqma/native-example-pants.png?style=shield&circle-token=df3dc5f6efbc2a267f7805f05a5e91d2878be9fd)
 ![TravisCI Status](https://travis-ci.org/Praqma/native-example-pants.svg?branch=master)
 
-See [native-example-pants](https://github.com/Praqma/native-example-pants/) repository.
+See [native-example-pants](https://github.com/Praqma/native-example-pants/) repository. -->
 
 * SCons
 
