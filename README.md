@@ -9,13 +9,6 @@ This repository exhibits examples of native builds.
 
 See [native-example-bazel](https://github.com/Praqma/native-example-bazel/) repository.
 
-* Buck
-
-![CircleCI](https://circleci.com/gh/Praqma/native-example-buck.png?style=shield&circle-token=df3dc5f6efbc2a267f7805f05a5e91d2878be9fd)
-![TravisCI Status](https://travis-ci.org/Praqma/native-example-buck.svg?branch=master)
-
-See [native-example-buck](https://github.com/Praqma/native-example-buck/) repository.
-
 * Conan 
 
 ![CircleCI](https://circleci.com/gh/Praqma/native-example-conan.png?style=shield&circle-token=df3dc5f6efbc2a267f7805f05a5e91d2878be9fd)
@@ -36,20 +29,6 @@ See [native-example-gradle](https://github.com/Praqma/native-example-gradle/) re
 ![TravisCI Status](https://travis-ci.org/Praqma/native-example-make.svg?branch=master)
 
 See [native-example-make](https://github.com/Praqma/native-example-make/) repository.
-
-<!-- * Maven
-
-![CircleCI](https://circleci.com/gh/Praqma/native-example-maven.png?style=shield&circle-token=df3dc5f6efbc2a267f7805f05a5e91d2878be9fd)
-![TravisCI Status](https://travis-ci.org/Praqma/native-example-maven.svg?branch=master)
-
-See [native-example-maven](https://github.com/Praqma/native-example-maven/) repository. -->
-
-<!-- * Pants
-
-![CircleCI](https://circleci.com/gh/Praqma/native-example-pants.png?style=shield&circle-token=df3dc5f6efbc2a267f7805f05a5e91d2878be9fd)
-![TravisCI Status](https://travis-ci.org/Praqma/native-example-pants.svg?branch=master)
-
-See [native-example-pants](https://github.com/Praqma/native-example-pants/) repository. -->
 
 * SCons
 
