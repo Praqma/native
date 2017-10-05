@@ -11,20 +11,90 @@
 | Please | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [URL](https://please.build/) | [Source](https://github.com/thought-machine/please) | | |
 | SCons | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) | [URL](http://scons.org/) | [Source](https://bitbucket.org/scons/scons) | | [Example](https://github.com/Praqma/native-example-scons/) |
 
-| Tool | Android | iOS | macOS | Linux | Windows |
+## Prerequisites / Requirements / Dependencies
+
+| Tool | Java | Python | - | - | - |
+| - | - | - | - | - | - |
+| Make | - | - | - | - | - |
+| Bazel | - | - | - | - | - |
+| Buck | - | - | - | - | - |
+| Gradle | - | - | - | - | - |
+| Conan | - | - | - | - | - |
+| Pants | - | - | - | - | - |
+| Please | - | - | - | - | - |
+| SCons | - | - | - | - | - |
+## Supported Builds
+
+| Tool | Java | C++ | Android | iOS | Go |
 | - | - | - | - | - | - |
 | Make | - | - | - | - | - |
 | Bazel | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Buck | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Buck | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | - |
 | Gradle | - | - | - | - | - |
 | Conan | - | - | - | - | - |
 | Pants | - | - | - | - | - |
 | Please | - | - | - | - | - |
 | SCons | - | - | - | - | - |
 
-| Tool | | | | | |
+## Performance
+
+| Tool | Incremental Builds | Task Output Caching | Incremental Subtasks | Compiler Daemon | Parallel Execution | Parallel Download of Dependencies |
+| - | - | - | - | - | - | - |
+| Make | | - | - | - | - | - |
+| Bazel | - | - | - | - | - | - |
+| Buck | - | - | - | - | - | - |
+| Gradle | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Conan | - | - | - | - | - | - |
+| Pants | - | - | - | - | - | - |
+| Please | - | - | - | - | - | - |
+| SCons | - | - | - | - | - | - |
+
+## Build Scans
+
+| Tool | Collaborative Debugging | Compare Builds | Extend and Customize | Track and Export History Across all Builds | - |
 | - | - | - | - | - | - |
-| Make | | - | - | - | - |
+| - | - | - | - | - | - |
+| Make | - | - | - | - | - |
+| Bazel | - | - | - | - | - |
+| Buck | - | - | - | - | - |
+| Gradle | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | - |
+| Conan | - | - | - | - | - |
+| Pants | - | - | - | - | - |
+| Please | - | - | - | - | - |
+| SCons | - | - | - | - | - |
+
+## Command-Line Interface
+
+| Tool | Task Exclusion | Continuous build | Composite builds | Dry Run | Continue Execution After Failures | Sync Dependency Cache with Repository |
+| - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - |
+| Make | - | - | - | - | - | - |
+| Bazel | - | - | - | - | - | - |
+| Buck | - | - | - | - | - | - |
+| Gradle | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Conan | - | - | - | - | - | - |
+| Pants | - | - | - | - | - | - |
+| Please | - | - | - | - | - | - |
+| SCons | - | - | - | - | - | - |
+
+## IDE Support
+
+| Tool | - | - | - | - | - |
+| - | - | - | - | - | - |
+| Make | - | - | - | - | - |
+| Bazel | - | - | - | - | - |
+| Buck | - | - | - | - | - |
+| Gradle | - | - | - | - | - |
+| Conan | - | - | - | - | - |
+| Pants | - | - | - | - | - |
+| Please | - | - | - | - | - |
+| SCons | - | - | - | - | - |
+
+## Syntax Highlighting
+
+| Tool | - | - | - | - | - |
+| - | - | - | - | - | - |
+| Make | - | - | - | - | - |
 | Bazel | - | - | - | - | - |
 | Buck | - | - | - | - | - |
 | Gradle | - | - | - | - | - |
