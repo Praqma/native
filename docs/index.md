@@ -10,3 +10,25 @@
 | Pants | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [URL](https://www.pantsbuild.org/) | [Source](https://github.com/pantsbuild/pants) | Twitter, Foursquare, Square, Medium | |
 | Please | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [URL](https://please.build/) | [Source](https://github.com/thought-machine/please) | | |
 | SCons | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) | [URL](http://scons.org/) | [Source](https://bitbucket.org/scons/scons) | | [Example](https://github.com/Praqma/native-example-scons/) |
+
+| Tool | Android | iOS | macOS | Linux | Windows |
+| - | - | - | - | - | - |
+| Make | - | - | - | - | - |
+| Bazel | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Buck | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Gradle | - | - | - | - | - |
+| Conan | - | - | - | - | - |
+| Pants | - | - | - | - | - |
+| Please | - | - | - | - | - |
+| SCons | - | - | - | - | - |
+
+| Tool | | | | | |
+| - | - | - | - | - | - |
+| Make | | - | - | - | - |
+| Bazel | - | - | - | - | - |
+| Buck | - | - | - | - | - |
+| Gradle | - | - | - | - | - |
+| Conan | - | - | - | - | - |
+| Pants | - | - | - | - | - |
+| Please | - | - | - | - | - |
+| SCons | - | - | - | - | - |
