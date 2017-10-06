@@ -7,9 +7,10 @@
 | Buck | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [URL](https://buckbuild.com) | [Source](https://github.com/facebook/buck) | Facebook | [Example](https://github.com/Praqma/native-example-buck/) |
 | Gradle | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [URL](https://gradle.org) | [Source](https://github.com/gradle/gradle) | | [Example](https://github.com/Praqma/native-example-bazel/) |
 | Conan | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) | [URL](https://conan.io/) | [Source](https://github.com/conan-io/conan) | | [Example](https://github.com/Praqma/native-example-conan/) |
-| Pants | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [URL](https://www.pantsbuild.org/) | [Source](https://github.com/pantsbuild/pants) | Twitter, Foursquare, Square, Medium | |
-| Please | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [URL](https://please.build/) | [Source](https://github.com/thought-machine/please) | | |
 | SCons | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) | [URL](http://scons.org/) | [Source](https://bitbucket.org/scons/scons) | | [Example](https://github.com/Praqma/native-example-scons/) |
+
+<!-- | Pants | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [URL](https://www.pantsbuild.org/) | [Source](https://github.com/pantsbuild/pants) | Twitter, Foursquare, Square, Medium | |
+| Please | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [URL](https://please.build/) | [Source](https://github.com/thought-machine/please) | | | -->
 
 ## Prerequisites / Requirements / Dependencies
 
@@ -20,8 +21,6 @@
 | Buck | - | - | - | - | - |
 | Gradle | - | - | - | - | - |
 | Conan | - | - | - | - | - |
-| Pants | - | - | - | - | - |
-| Please | - | - | - | - | - |
 | SCons | - | - | - | - | - |
 
 ## Supported Builds
@@ -33,8 +32,6 @@
 | Buck | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | - |
 | Gradle | - | - | - | - | - |
 | Conan | - | - | - | - | - |
-| Pants | - | - | - | - | - |
-| Please | - | - | - | - | - |
 | SCons | - | - | - | - | - |
 
 ## Performance
@@ -46,8 +43,6 @@
 | Buck | - | - | - | - | - | - |
 | Gradle | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Conan | - | - | - | - | - | - |
-| Pants | - | - | - | - | - | - |
-| Please | - | - | - | - | - | - |
 | SCons | - | - | - | - | - | - |
 
 ## Build Scans
@@ -60,8 +55,6 @@
 | Buck | - | - | - | - | - |
 | Gradle | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | - |
 | Conan | - | - | - | - | - |
-| Pants | - | - | - | - | - |
-| Please | - | - | - | - | - |
 | SCons | - | - | - | - | - |
 
 ## Command-Line Interface
@@ -74,8 +67,6 @@
 | Buck | - | - | - | - | - | - |
 | Gradle | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Conan | - | - | - | - | - | - |
-| Pants | - | - | - | - | - | - |
-| Please | - | - | - | - | - | - |
 | SCons | - | - | - | - | - | - |
 
 ## IDE Support
@@ -87,8 +78,6 @@
 | Buck | - | - | - | - | - |
 | Gradle | - | - | - | - | - |
 | Conan | - | - | - | - | - |
-| Pants | - | - | - | - | - |
-| Please | - | - | - | - | - |
 | SCons | - | - | - | - | - |
 
 ## Syntax Highlighting
@@ -100,6 +89,4 @@
 | Buck | - | - | - | - | - |
 | Gradle | - | - | - | - | - |
 | Conan | - | - | - | - | - |
-| Pants | - | - | - | - | - |
-| Please | - | - | - | - | - |
 | SCons | - | - | - | - | - |
