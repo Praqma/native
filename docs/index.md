@@ -12,6 +12,18 @@
 <!-- | Pants | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [URL](https://www.pantsbuild.org/) | [Source](https://github.com/pantsbuild/pants) | Twitter, Foursquare, Square, Medium | |
 | Please | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [URL](https://please.build/) | [Source](https://github.com/thought-machine/please) | | | -->
 
+<ul>
+{% for org_hash in site.data.orgs %}
+{% assign org = org_hash[1] %}
+  <li>
+    <a href="https://github.com/{{ org.username }}">
+      {{ org.name }}
+    </a>
+    ({{ org.members | size }} members)
+  </li>
+{% endfor %}
+</ul>
+
 ## Prerequisites / Requirements / Dependencies
 
 | Tool | Java | Python | - | - | - |
