@@ -13,13 +13,11 @@
 | Please | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [URL](https://please.build/) | [Source](https://github.com/thought-machine/please) | | | -->
 
 <ul>
-{% for org_hash in site.data.native %}
-{% assign org = org_hash[1] %}
+{% for member in site.data.tool %}
   <li>
-    <a href="https://github.com/{{ org.username }}">
-      {{ org.name }}
+    <a href="https://github.com/{{ tool.github }}">
+      {{ tool.name }}
     </a>
-    ({{ org.members | size }} members)
   </li>
 {% endfor %}
 </ul>
