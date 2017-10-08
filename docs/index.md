@@ -13,7 +13,7 @@
 | Please | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) | [URL](https://please.build/) | [Source](https://github.com/thought-machine/please) | | | -->
 
 <ul>
-{% for org_hash in site.data.orgs %}
+{% for org_hash in site.data.native %}
 {% assign org = org_hash[1] %}
   <li>
     <a href="https://github.com/{{ org.username }}">
