@@ -24,7 +24,7 @@
 
 - name: 'Bazel'
   title: 'Bazel'
-  license: '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+  license: '[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
   url: 'https://bazel.build/'
   source: '[Source](https://github.com/bazelbuild/bazel)'
   community: ':white_check_mark:'
@@ -48,7 +48,7 @@
 
 - name: 'Buck'
   title: 'Buck'
-  license: '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+  license: '[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
   url: 'https://buckbuild.com'
   source: '[Source](https://github.com/facebook/buck)'
   community: ':white_check_mark:'
@@ -56,7 +56,7 @@
 
 - name: 'Gradle'
   title: 'Gradle'
-  license: '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+  license: '[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
   url: 'https://gradle.org'
   source: '[Source](https://github.com/gradle/gradle)'
   community: ':white_check_mark:'
