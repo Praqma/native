@@ -16,7 +16,7 @@ This repository exhibits examples of native builds.
 
   See [native-example-buck](https://github.com/Praqma/native-example-buck/) repository.
 
-* Conan 
+* Conan
 
   [![CircleCI](https://circleci.com/gh/Praqma/native-example-conan.png?style=shield&circle-token=df3dc5f6efbc2a267f7805f05a5e91d2878be9fd)](https://circleci.com/gh/Praqma/native-example-conan)
   [![TravisCI Status](https://travis-ci.org/Praqma/native-example-conan.svg?branch=master)](https://travis-ci.org/Praqma/native-example-conan)
