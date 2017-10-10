@@ -1,5 +1,13 @@
-- Details:
+- details:
   title: '<b>Details</b>'
+  bazel: '[:heavy_minus_sign:](javascript:void(0);)'
+  buck: '[:heavy_minus_sign:](javascript:void(0);)'
+  conan: '[:heavy_minus_sign:](javascript:void(0);)'
+  gradle: '[:heavy_minus_sign:](javascript:void(0);)'
+  make: '[:heavy_minus_sign:](javascript:void(0);)'
+  scons: '[:heavy_minus_sign:](javascript:void(0);)'
+- url:
+  title: 'URL'
   bazel: '[:house:](https://bazel.build/)'
   buck: '[:house:](https://buckbuild.com)'
   conan: '[:house:](https://conan.io/)'
@@ -33,6 +41,12 @@
 
 - performance:
   title: '<b>Performance</b>'
+  bazel: '[:heavy_minus_sign:](javascript:void(0);)'
+  buck: '[:heavy_minus_sign:](javascript:void(0);)'
+  conan: '[:heavy_minus_sign:](javascript:void(0);)'
+  gradle: '[:heavy_minus_sign:](javascript:void(0);)'
+  make: '[:heavy_minus_sign:](javascript:void(0);)'
+  scons: '[:heavy_minus_sign:](javascript:void(0);)'
 - performance_incremental_builds:
   title: 'Incremental Builds'
   bazel:
@@ -84,6 +98,12 @@
 
 - build_scans:
   title: '<b>Build Scans</b>'
+  bazel: '[:heavy_minus_sign:](javascript:void(0);)'
+  buck: '[:heavy_minus_sign:](javascript:void(0);)'
+  conan: '[:heavy_minus_sign:](javascript:void(0);)'
+  gradle: '[:heavy_minus_sign:](javascript:void(0);)'
+  make: '[:heavy_minus_sign:](javascript:void(0);)'
+  scons: '[:heavy_minus_sign:](javascript:void(0);)'
 - caching:
   title: 'Caching'
   bazel: '[:white_check_mark:](https://bazel.build/)'
@@ -135,6 +155,12 @@
 
 - command_line_interface:
   title: '<b>Command Line Interface</b>'
+  bazel: '[:heavy_minus_sign:](javascript:void(0);)'
+  buck: '[:heavy_minus_sign:](javascript:void(0);)'
+  conan: '[:heavy_minus_sign:](javascript:void(0);)'
+  gradle: '[:heavy_minus_sign:](javascript:void(0);)'
+  make: '[:heavy_minus_sign:](javascript:void(0);)'
+  scons: '[:heavy_minus_sign:](javascript:void(0);)'
 - command_line_visualize_dependency_graph:
   title: 'Visualize Dependency Graph'
   bazel: '[:white_check_mark:](https://blog.bazel.build/2015/06/17/visualize-your-build.html)'
@@ -194,6 +220,12 @@
 
 - artifacts_management:
   title: '<b>Artifacts Management</b>'
+  bazel: '[:heavy_minus_sign:](javascript:void(0);)'
+  buck: '[:heavy_minus_sign:](javascript:void(0);)'
+  conan: '[:heavy_minus_sign:](javascript:void(0);)'
+  gradle: '[:heavy_minus_sign:](javascript:void(0);)'
+  make: '[:heavy_minus_sign:](javascript:void(0);)'
+  scons: '[:heavy_minus_sign:](javascript:void(0);)'
 - artifactory_support:
   title: 'Artifactory Support'
   bazel: '[:construction:](https://github.com/bazelbuild/bazel/issues/1372)'
