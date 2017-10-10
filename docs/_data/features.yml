@@ -1,5 +1,11 @@
 - Details:
   title: '<b>Details</b>'
+  bazel: '[:house:](https://bazel.build/)'
+  buck: '[:house:](https://buckbuild.com)'
+  conan: '[:house:](https://conan.io/)'
+  gradle: '[:house:](https://gradle.org)'
+  make: '[:house:](https://www.gnu.org/software/make/)'
+  scons: '[:house:](http://scons.org/)'
 - license:
   title: License
   bazel: '[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
@@ -8,14 +14,6 @@
   gradle: '[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
   make: '[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
   scons: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
-- url:
-  title: 'Home Page'
-  bazel: '[:house:](https://bazel.build/)'
-  buck: '[:house:](https://buckbuild.com)'
-  conan: '[:house:](https://conan.io/)'
-  gradle: '[:house:](https://gradle.org)'
-  make: '[:house:](https://www.gnu.org/software/make/)'
-  scons: '[:house:](http://scons.org/)'
 - code:
   title: 'Source Code'
   bazel: '[:eyeglasses:](https://github.com/bazelbuild/bazel)'
