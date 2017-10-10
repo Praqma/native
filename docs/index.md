@@ -1,4 +1,4 @@
-# Feature Matrix of Native Build Systems
+# Features of Native Build Systems
 
 <table>
   <tr>
