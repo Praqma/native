@@ -49,28 +49,28 @@
   scons: '[:heavy_minus_sign:](javascript:void(0);)'
 - performance_incremental_builds:
   title: 'Incremental Builds'
-  bazel:
-  buck:
-  conan:
+  bazel: '[:white_check_mark:](http://docs.bazel.build/versions/master/user-manual.html)'
+  buck: '[:white_check_mark:](https://buckbuild.com/)'
+  conan: '[:x:](http://blog.conan.io/2017/03/14/Devops-and-Continouous-Integration-Challenges-in-C-C++-Projects.html)'
   gradle: '[:white_check_mark:](https://blog.gradle.org/introducing-incremental-build-support)'
-  make:
-  scons:
+  make: '[:x:](http://www.evanjones.ca/makefile-dependencies.html)'
+  scons: '[:question:](http://scons.org/doc/production/HTML/scons-man.html)'
 - performance_task_output_caching:
   title: 'Task Output Caching'
-  bazel:
-  buck:
-  conan:
+  bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
+  buck: '[:x:](https://buckbuild.com/setup/getting_started.html)'
+  conan: '[:x:](http://conanio.readthedocs.io/en/latest/)'
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/build_cache.html#sec:task_output_caching)'
-  make:
-  scons:
-- performance_incremental_tasks:
-  title: 'Incremental Tasks'
-  bazel:
-  buck:
-  conan:
+  make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:white_check_mark:](http://scons.org/doc/production/HTML/scons-user.html#idm139977751955840)'
+- performance_incremental_subtasks:
+  title: 'Incremental Subtasks'
+  bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
+  buck: '[:x:](https://buckbuild.com/setup/getting_started.html)'
+  conan: '[:x:](http://conanio.readthedocs.io/en/latest/)'
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/custom_tasks.html#incremental_tasks)'
-  make:
-  scons:
+  make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
 - performance_compiler_daemon:
   title: 'Compiler Daemon'
   bazel: '[:white_check_mark:](javascript:void(0);)'
@@ -81,20 +81,20 @@
   scons: '[:question:](javascript:void(0);)'
 - performance_parallel_execution:
   title: 'Parallel Execution'
-  bazel:
-  buck:
-  conan:
+  bazel: '[:white_check_mark:](https://www.bazel.build/faq.html)'
+  buck: '[:white_check_mark:](https://buckbuild.com/)'
+  conan: '[:white_check_mark:](https://github.com/conan-io/conan/issues/1026)'
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/custom_tasks.html#worker_api)'
-  make:
-  scons:
+  make: '[:white_check_mark:](https://www.gnu.org/software/make/manual/html_node/Parallel.html)'
+  scons: '[:white_check_mark:](http://scons.org/doc/production/HTML/scons-man.html)'
 - performance_parallel_download_of_dependencies:
   title: 'Parallel Download of Dependencies'
-  bazel:
-  buck:
-  conan:
+  bazel: '[:white_check_mark:](https://docs.bazel.build/versions/master/external.html)'
+  buck: '[:question:](https://buckbuild.com/)'
+  conan: '[:construction:](https://github.com/conan-io/conan/issues/1012)'
   gradle: '[:white_check_mark:](https://gradle.org/features/#performance)'
-  make:
-  scons:
+  make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:question:](http://scons.org/doc/production/HTML/scons-user.html)'
 
 - build_scans:
   title: '<b>Build Scans</b>'
@@ -110,48 +110,48 @@
   buck: '[:white_check_mark:](https://buckbuild.com/concept/what_makes_buck_so_fast.html)'
   conan: '[:white_check_mark:](https://www.conan.io/)'
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/build_cache.html)'
-  make: '[:question:](javascript:void(0);)'
-  scons: '[:white_check_mark:](http://scons.org/)'
+  make: '[:question:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:white_check_mark:](http://scons.org/doc/production/HTML/scons-user.html)'
 - build_scans_web_based_build_visuallization:
   title: 'Web-based Build Visualization'
-  bazel:
-  buck:
-  conan:
+  bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
+  buck: '[:x:](https://buckbuild.com/setup/getting_started.html)'
+  conan: '[:x:](http://conanio.readthedocs.io/en/latest/)'
   gradle: '[:white_check_mark:](https://gradle.org/features/#build-scans)'
-  make:
-  scons:
+  make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
 - build_scans_collaborative_debugging:
   title: 'Collaborative Debugging'
-  bazel:
-  buck:
-  conan:
+  bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
+  buck: '[:x:](https://buckbuild.com/setup/getting_started.html)'
+  conan: '[:x:](http://conanio.readthedocs.io/en/latest/)'
   gradle: '[:eight_spoked_asterisk:](https://docs.gradle.com/enterprise/get-started/#understand_your_dependencies)'
-  make:
-  scons:
+  make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
 - build_scans_compare_builds:
   title: 'Compare Builds'
-  bazel:
-  buck:
-  conan:
+  bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
+  buck: '[:x:](https://buckbuild.com/setup/getting_started.html)'
+  conan: '[:x:](http://conanio.readthedocs.io/en/latest/)'
   gradle: '[:eight_spoked_asterisk:](https://docs.gradle.com/enterprise/get-started/#compare_build_scans_to_find_differences)'
-  make:
-  scons:
+  make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
 - build_scans_extend_and_customize:
   title: 'Extend and Customize'
-  bazel: '[:white_check_mark:](https://bazel.build/)'
-  buck:
-  conan:
+  bazel: '[:white_check_mark:](http://docs.bazel.build/versions/master/user-manual.html)'
+  buck: '[:white_check_mark:](https://buckbuild.com/setup/getting_started.html)'
+  conan: '[:white_check_mark:](http://conanio.readthedocs.io/en/latest/)'
   gradle: '[:white_check_mark:](https://blog.gradle.org/custom-data-in-build-scans)'
-  make:
-  scons:
+  make: '[:white_check_mark:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:white_check_mark:](http://scons.org/doc/production/HTML/scons-user.html)'
 - build_scans_track_and_export_history_across_all_builds:
   title: 'Track and Export History Across all Builds'
-  bazel:
-  buck:
-  conan:
+  bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
+  buck: '[:x:](https://buckbuild.com/setup/getting_started.html)'
+  conan: '[:x:](http://conanio.readthedocs.io/en/latest/)'
   gradle: '[:eight_spoked_asterisk:](https://docs.gradle.com/enterprise/)'
-  make:
-  scons:
+  make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
 
 - command_line_interface:
   title: '<b>Command Line Interface</b>'
@@ -167,32 +167,32 @@
   buck: '[:white_check_mark:](https://buckbuild.com/command/query.html)'
   conan: '[:white_check_mark:](http://conanio.readthedocs.io/en/latest/reference/commands/info.html)'
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/userguide_single.html#sec:listing_dependencies)'
-  make: '[:question:](javascript:void(0);)'
+  make: '[:question:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:question:](https://bitbucket.org/scons/scons/wiki/VisualizeDependencies)'
 - command_line_interface_task_exclusion:
   title: 'Task Exclusion'
-  bazel:
-  buck:
-  conan:
+  bazel: '[:white_check_mark:](http://docs.bazel.build/versions/master/user-manual.html)'
+  buck: '[:white_check_mark:](https://buckbuild.com/setup/getting_started.html)'
+  conan: '[:question:](http://conanio.readthedocs.io/en/latest/)'
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/tutorial_gradle_command_line.html#sec:excluding_tasks_from_the_command_line)'
-  make:
-  scons:
+  make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
 - command_line_interface_continuous_build:
   title: 'Continuous Build'
-  bazel:
-  buck:
-  conan:
+  bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
+  buck: '[:x:](https://buckbuild.com/setup/getting_started.html)'
+  conan: '[:x:](http://conanio.readthedocs.io/en/latest/)'
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/continuous_build.html)'
-  make:
-  scons:
+  make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
 - command_line_interface_composite_builds:
   title: 'Composite Builds'
-  bazel:
-  buck:
-  conan:
+  bazel: '[:white_check_mark:](https://bazel.build/)'
+  buck: '[:x:](https://buckbuild.com/about/overview.html)'
+  conan: '[:x:](http://conanio.readthedocs.io/en/latest/)'
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/composite_builds.html#defining_composite_builds)'
-  make:
-  scons:
+  make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:question:](http://scons.org/doc/production/HTML/scons-user.html)'
 - command_line_interface_dry_run:
   title: 'Dry Run'
   bazel: '[:x:](https://docs.bazel.build/versions/master/command-line-reference.html)'
@@ -203,20 +203,20 @@
   scons: '[:white_check_mark:](http://scons.org/doc/production/HTML/scons-man.html)'
 - command_line_interface_continue_execution_after_failures:
   title: 'Continue Execution After Failures'
-  bazel:
-  buck:
-  conan:
+  bazel: '[:x:](https://docs.bazel.build/versions/master/command-line-reference.html)'
+  buck: '[:x:](https://buckbuild.com/command/test.html)'
+  conan: '[:x:](http://conanio.readthedocs.io/en/latest/)'
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/tutorial_gradle_command_line.html#sec:continue_build_on_failure)'
-  make:
-  scons:
+  make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:white_check_mark:](http://scons.org/doc/production/HTML/scons-man.html)'
 - command_line_interface_sync_dependency_cache_with_repository:
   title: 'Sync Dependency Cache with Repository'
-  bazel:
-  buck:
-  conan:
+  bazel: '[:x:](https://docs.bazel.build/versions/master/command-line-reference.html)'
+  buck: '[:x:](https://buckbuild.com/command/test.html)'
+  conan: '[:construction:](https://github.com/conan-io/conan/issues/480)'
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/dependency_management.html#sub:cache_refresh)'
-  make:
-  scons:
+  make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
 
 - artifacts_management:
   title: '<b>Artifacts Management</b>'
