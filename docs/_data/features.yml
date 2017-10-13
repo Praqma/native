@@ -14,6 +14,14 @@
   gradle: '[:house:](https://gradle.org)'
   make: '[:house:](https://www.gnu.org/software/make/)'
   scons: '[:house:](http://scons.org/)'
+- documentation:
+  title: 'Documentation'
+  bazel: '[:orange_book:](https://docs.bazel.build/)'
+  buck: '[:orange_book:](https://buckbuild.com/)'
+  conan: '[:orange_book:](http://conanio.readthedocs.io/)'
+  gradle: '[:orange_book:](https://gradle.org/docs/)'
+  make: '[:orange_book:](https://www.gnu.org/software/make/manual/make.html)'
+  scons: '[:orange_book:](http://scons.org/documentation.html)'
 - developed_by:
   title: 'Developed By'
   bazel: '[Google](https://bazel.build/)'
