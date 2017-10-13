@@ -185,12 +185,12 @@
   scons: '[:white_check_mark:](http://scons.org/doc/production/HTML/scons-user.html)'
 - dependency_resolution:
   title: 'Dependency Resolution'
-  bazel: '[:heavy_minus_sign:](javascript:void(0);)'
-  buck: '[:heavy_minus_sign:](javascript:void(0);)'
-  conan: '[:heavy_minus_sign:](javascript:void(0);)'
-  gradle: '[:heavy_minus_sign:](javascript:void(0);)'
-  make: '[:heavy_minus_sign:](javascript:void(0);)'
-  scons: '[:heavy_minus_sign:](javascript:void(0);)'
+  bazel: '[:white_check_mark:](http://docs.bazel.build/versions/master/user-manual.html)'
+  buck: '[:white_check_mark:](https://buckbuild.com)'
+  conan: '[:white_check_mark:](https://conan.io/)'
+  gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/artifact_dependencies_tutorial.html)'
+  make: '[:white_check_mark:](https://www.gnu.org/software/make/)'
+  scons: '[:white_check_mark:](http://scons.org/doc/production/HTML/scons-user/ch28s03.html)'
 - build_scans_web_based_build_visuallization:
   title: 'Web-based Build Visualization'
   bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
