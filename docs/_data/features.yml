@@ -254,7 +254,7 @@
   buck: '[:white_check_mark:](https://buckbuild.com/command/query.html)'
   conan: '[:white_check_mark:](http://conanio.readthedocs.io/en/latest/reference/commands/info.html)'
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/userguide_single.html#sec:listing_dependencies)'
-  make: '[:question:](https://www.gnu.org/software/make/manual/make.html)'
+  make: '[:white_check_mark:](https://github.com/lindenb/makefile2graph)'
   scons: '[:question:](https://bitbucket.org/scons/scons/wiki/VisualizeDependencies)'
 - command_line_interface_task_exclusion:
   title: 'Task Exclusion'
@@ -294,7 +294,7 @@
   buck: '[:x:](https://buckbuild.com/command/test.html)'
   conan: '[:x:](http://conanio.readthedocs.io/en/latest/)'
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/tutorial_gradle_command_line.html#sec:continue_build_on_failure)'
-  make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
+  make: '[:white_check_mark:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:white_check_mark:](http://scons.org/doc/production/HTML/scons-man.html)'
 - command_line_interface_sync_dependency_cache_with_repository:
   title: 'Sync Dependency Cache with Repository'
