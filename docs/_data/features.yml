@@ -282,7 +282,7 @@
   scons: '[:question:](http://scons.org/doc/production/HTML/scons-user.html)'
 - command_line_interface_dry_run:
   title: 'Dry Run'
-  bazel: '[:x:](https://docs.bazel.build/versions/master/command-line-reference.html)'
+  bazel: '[:white_check_mark:](https://docs.bazel.build/versions/master/command-line-reference.html)'
   buck: '[:x:](https://buckbuild.com/command/test.html)'
   conan: '[:construction:](https://github.com/conan-io/conan/issues/1432)'
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/userguide_single.html#sec:dry_run)'
