@@ -27,7 +27,7 @@
 
 ## Interest over Time on Google Trends
 
-One graph can consist of maximum five items, due to Google Trends limit.
+One graph can consist of maximum five keywords for comparison, due to limits with Google Trends.
 
 <div markdown="0">
 <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1457_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"bazel build","geo":"","time":"today 12-m"},{"keyword":"buck build","geo":"","time":"today 12-m"},{"keyword":"conan build","geo":"","time":"today 12-m"},{"keyword":"gradle build","geo":"","time":"today 12-m"},{"keyword":"make build","geo":"","time":"today 12-m"}],"category":0,"property":""}, {"exploreQuery":"q=bazel%20build,buck%20build,conan%20build,gradle%20build,make%20build&date=today 12-m,today 12-m,today 12-m,today 12-m,today 12-m","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
