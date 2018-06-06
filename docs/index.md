@@ -8,8 +8,8 @@
     <th>Conan</th>
     <th>Gradle</th>
     <th>Make</th>
-    <th>SCons</th>
     <th>Meson</th>
+    <th>SCons</th>
   </tr>
   {% for entry in site.data.features %}
     <tr>
@@ -19,17 +19,20 @@
       <td><a href="{{ entry.conan }}">{{ entry.conan | markdownify }}</a></td>
       <td><a href="{{ entry.gradle }}">{{ entry.gradle | markdownify }}</a></td>
       <td><a href="{{ entry.make }}">{{ entry.make | markdownify }}</a></td>
-      <td><a href="{{ entry.scons }}">{{ entry.scons | markdownify }}</a></td>
       <td><a href="{{ entry.meson }}">{{ entry.meson | markdownify }}</a></td>
+      <td><a href="{{ entry.scons }}">{{ entry.scons | markdownify }}</a></td>
     </tr>
   {% endfor %}
 </table>
 
 ## Interest over Time on Google Trends
 
+One graph can consist of maximum five items, due to Google Trends limit.
+
 <div markdown="0">
-  <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1154_RC03/embed_loader.js"></script>
-  <script type="text/javascript">
-    trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"bazel build","geo":"","time":"today 12-m"},{"keyword":"buck build","geo":"","time":"today 12-m"},{"keyword":"conan build","geo":"","time":"today 12-m"},{"keyword":"gradle build","geo":"","time":"today 12-m"},{"keyword":"scons build","geo":"","time":"today 12-m"},{"keyword":"meson build","geo":"","time":"today 12-m"}],"category":0,"property":""}, {"exploreQuery":"q=bazel%20build,buck%20build,conan%20build,gradle%20build,scons%20build,meson%20build&date=today 12-m,today 12-m,today 12-m,today 12-m,today 12-m","guestPath":"https://trends.google.com:443/trends/embed/"});
-  </script>
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1457_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"bazel build","geo":"","time":"today 12-m"},{"keyword":"buck build","geo":"","time":"today 12-m"},{"keyword":"conan build","geo":"","time":"today 12-m"},{"keyword":"gradle build","geo":"","time":"today 12-m"},{"keyword":"make build","geo":"","time":"today 12-m"}],"category":0,"property":""}, {"exploreQuery":"q=bazel%20build,buck%20build,conan%20build,gradle%20build,make%20build&date=today 12-m,today 12-m,today 12-m,today 12-m,today 12-m","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+</div>
+
+<div markdown="0">
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1457_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"meson build","geo":"","time":"today 12-m"},{"keyword":"scons build","geo":"","time":"today 12-m"}],"category":0,"property":""}, {"exploreQuery":"q=meson%20build,scons%20build&date=today 12-m,today 12-m","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
 </div>
