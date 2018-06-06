@@ -6,6 +6,7 @@
   gradle: '[:heavy_minus_sign:](javascript:void(0);)'
   make: '[:heavy_minus_sign:](javascript:void(0);)'
   scons: '[:heavy_minus_sign:](javascript:void(0);)'
+  meson: '[:heavy_minus_sign:](javascript:void(0);)'
 - url:
   title: 'URL'
   bazel: '[:house:](https://bazel.build/)'
@@ -14,6 +15,7 @@
   gradle: '[:house:](https://gradle.org)'
   make: '[:house:](https://www.gnu.org/software/make/)'
   scons: '[:house:](http://scons.org/)'
+  meson: '[:house:](https://mesonbuild.com/)'
 - documentation:
   title: 'Documentation'
   bazel: '[:orange_book:](https://docs.bazel.build/)'
@@ -22,6 +24,7 @@
   gradle: '[:orange_book:](https://gradle.org/docs/)'
   make: '[:orange_book:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:orange_book:](http://scons.org/documentation.html)'
+  meson: '[:orange_book:](http://mesonbuild.com/Manual.html)'
 - developed_by:
   title: 'Developed By'
   bazel: '[Google](https://bazel.build/)'
@@ -30,6 +33,7 @@
   gradle: '[Gradle Inc.](https://gradle.org)'
   make: '[Free Software Foundation (FSF)](https://www.gnu.org/software/make/)'
   scons: '[SCons Foundation](http://scons.org/)'
+  meson: '[Meson development team](https://mesonbuild.com/)'
 - written_in:
   title: 'Written In'
   bazel: '[Java](https://bazel.build/)'
@@ -38,6 +42,7 @@
   gradle: '[Java, Groovy](https://gradle.org)'
   make: '[C, Perl](https://www.gnu.org/software/make/)'
   scons: '[Python](http://scons.org/)'
+  meson: '[Python](http://scons.org/)'
 - community_support:
   title: 'Community Support'
   bazel: '[:heart:](https://github.com/bazelbuild/bazel)'
@@ -46,6 +51,7 @@
   gradle: '[:heart:](https://github.com/gradle/gradle)'
   make: '[:heart:](https://git.savannah.gnu.org/cgit/make.git/)'
   scons: '[:heart:](https://github.com/SConsProject/scons)'
+  meson: '[:heart:](https://github.com/mesonbuild/meson)'
 - supported_programming_environment:
   title: 'Supported Programming Environment'
   bazel: '[Java, C/C++, Android, iOS](https://bazel.build/)'
@@ -54,6 +60,7 @@
   gradle: '[Java, C++, Python](https://gradle.org)'
   make: '[C/C++](https://www.gnu.org/software/make/)'
   scons: '[C, C++, D, Java, Fortran, Yacc, Lex, Qt and SWIG, TeX, LaTeX](http://scons.org/)'
+  meson: '[C, C++, D, Java, Fortran, Rust, Objective C, Objective C++, others](https://mesonbuild.com/)'
 - supported_operating_system:
   title: 'Supported Operating System'
   bazel: '[Cross-platform](https://bazel.build/)'
@@ -62,6 +69,7 @@
   gradle: '[Cross-platform](https://gradle.org)'
   make: '[Cross-platform](https://www.gnu.org/software/make/)'
   scons: '[Cross-platform](http://scons.org/)'
+  meson: '[Cross-platform](https://mesonbuild.com)'
 - package_management:
   title: 'Package Management'
   bazel: '[Apache Maven](https://docs.bazel.build/versions/master/external.html#external-packages)'
@@ -70,6 +78,7 @@
   gradle: '[Apache Maven](https://docs.gradle.org/current/userguide/artifact_dependencies_tutorial.html)'
   make: '[:x:](https://www.gnu.org/software/make/)'
   scons: '[:x:](http://scons.org/)'
+  meson: '[Wrap](http://mesonbuild.com/Wrap-dependency-system-manual.html)'
 - license:
   title: License
   bazel: '[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
@@ -78,6 +87,7 @@
   gradle: '[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
   make: '[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
   scons: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+  meson: '[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
 - code:
   title: 'Source Code'
   bazel: '[:eyeglasses:](https://github.com/bazelbuild/bazel)'
@@ -86,6 +96,7 @@
   gradle: '[:eyeglasses:](https://github.com/gradle/gradle)'
   make: '[:eyeglasses:](https://git.savannah.gnu.org/cgit/make.git/)'
   scons: '[:eyeglasses:](https://github.com/SConsProject/scons)'
+  meson: '[:eyeglasses:](https://github.com/mesonbuild/meson)'
 - example:
   title: 'Example / Demo'
   bazel: '[:space_invader:](https://github.com/praqma/native-example-bazel/)'
@@ -94,6 +105,7 @@
   gradle: '[:space_invader:](https://github.com/praqma/native-example-gradle/)'
   make: '[:space_invader:](https://github.com/praqma/native-example-make/)'
   scons: '[:space_invader:](https://github.com/praqma/native-example-scons/)'
+  meson: '[:x:](https://mesonbuild.com/)'
 - artifacts_management:
   title: '<b>Artifacts Management</b>'
   bazel: '[:heavy_minus_sign:](javascript:void(0);)'
@@ -102,6 +114,7 @@
   gradle: '[:heavy_minus_sign:](javascript:void(0);)'
   make: '[:heavy_minus_sign:](javascript:void(0);)'
   scons: '[:heavy_minus_sign:](javascript:void(0);)'
+  meson: '[:heavy_minus_sign:](javascript:void(0);)'
 - artifactory_support:
   title: 'Artifactory Support'
   bazel: '[:construction:](https://github.com/bazelbuild/bazel/issues/1372)'
@@ -110,6 +123,7 @@
   gradle: '[:white_check_mark:](https://www.jfrog.com/blog/speed-up-your-gradle-builds-with-jfrog-artifactory/)'
   make: '[:x:](javascript:void(0);)'
   scons: '[:x:](javascript:void(0);)'
+  meson: '[:x:](javascript:void(0);)'
 - maven_support:
   title: 'Maven Support'
   bazel: '[:construction:](https://github.com/bazelbuild/bazel/issues/1372)'
@@ -118,6 +132,7 @@
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/publishing_maven.html)'
   make: '[:x:](javascript:void(0);)'
   scons: '[:x:](javascript:void(0);)'
+  meson: '[:x:](javascript:void(0);)'
 - performance:
   title: '<b>Performance</b>'
   bazel: '[:heavy_minus_sign:](javascript:void(0);)'
@@ -126,6 +141,7 @@
   gradle: '[:heavy_minus_sign:](javascript:void(0);)'
   make: '[:heavy_minus_sign:](javascript:void(0);)'
   scons: '[:heavy_minus_sign:](javascript:void(0);)'
+  meson: '[:heavy_minus_sign:](javascript:void(0);)'
 - performance_incremental_builds:
   title: 'Incremental Builds'
   bazel: '[:white_check_mark:](http://docs.bazel.build/versions/master/user-manual.html)'
@@ -134,6 +150,7 @@
   gradle: '[:white_check_mark:](https://blog.gradle.org/introducing-incremental-build-support)'
   make: '[:x:](http://www.evanjones.ca/makefile-dependencies.html)'
   scons: '[:question:](http://scons.org/doc/production/HTML/scons-man.html)'
+  meson: '[:white_check_mark:](https://mesonbuild.com/)'
 - performance_task_output_caching:
   title: 'Task Output Caching'
   bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
@@ -142,6 +159,7 @@
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/build_cache.html#sec:task_output_caching)'
   make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:white_check_mark:](http://scons.org/doc/production/HTML/scons-user.html#idm139977751955840)'
+  meson: '[:x:](https://mesonbuild.com)'
 - performance_incremental_subtasks:
   title: 'Incremental Subtasks'
   bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
@@ -150,6 +168,7 @@
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/custom_tasks.html#incremental_tasks)'
   make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
+  meson: '[:x:](https://mesonbuild.com)'
 - performance_compiler_daemon:
   title: 'Compiler Daemon'
   bazel: '[:white_check_mark:](javascript:void(0);)'
@@ -158,6 +177,7 @@
   gradle: '[:white_check_mark:](https://gradle.org/features/#performance)'
   make: '[:x:](javascript:void(0);)'
   scons: '[:question:](javascript:void(0);)'
+  meson: '[:x:](https://mesonbuild.com)'
 - performance_parallel_execution:
   title: 'Parallel Execution'
   bazel: '[:white_check_mark:](https://www.bazel.build/faq.html)'
@@ -166,6 +186,7 @@
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/custom_tasks.html#worker_api)'
   make: '[:white_check_mark:](https://www.gnu.org/software/make/manual/html_node/Parallel.html)'
   scons: '[:white_check_mark:](http://scons.org/doc/production/HTML/scons-man.html)'
+  meson: '[:white_check_mark:](https://mesonbuild.com/)'
 - performance_parallel_download_of_dependencies:
   title: 'Parallel Download of Dependencies'
   bazel: '[:white_check_mark:](https://docs.bazel.build/versions/master/external.html)'
@@ -174,6 +195,7 @@
   gradle: '[:white_check_mark:](https://gradle.org/features/#performance)'
   make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:question:](http://scons.org/doc/production/HTML/scons-user.html)'
+  meson: '[:x:](https://mesonbuild.com)'
 
 - build_scans:
   title: '<b>Build Scans</b>'
@@ -183,6 +205,7 @@
   gradle: '[:heavy_minus_sign:](javascript:void(0);)'
   make: '[:heavy_minus_sign:](javascript:void(0);)'
   scons: '[:heavy_minus_sign:](javascript:void(0);)'
+  meson: '[:heavy_minus_sign:](javascript:void(0);)'
 - caching:
   title: 'Caching'
   bazel: '[:white_check_mark:](https://bazel.build/)'
@@ -191,6 +214,7 @@
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/build_cache.html)'
   make: '[:question:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:white_check_mark:](http://scons.org/doc/production/HTML/scons-user.html)'
+  meson: '[:x:](https://mesonbuild.com)'
 - dependency_resolution:
   title: 'Dependency Resolution'
   bazel: '[:white_check_mark:](http://docs.bazel.build/versions/master/user-manual.html)'
@@ -199,6 +223,7 @@
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/artifact_dependencies_tutorial.html)'
   make: '[:white_check_mark:](https://www.gnu.org/software/make/)'
   scons: '[:white_check_mark:](http://scons.org/doc/production/HTML/scons-user/ch28s03.html)'
+  meson: '[:white_check_mark:](https://mesonbuild.com/)'
 - build_scans_web_based_build_visuallization:
   title: 'Web-based Build Visualization'
   bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
@@ -207,6 +232,7 @@
   gradle: '[:white_check_mark:](https://gradle.org/features/#build-scans)'
   make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
+  meson: '[:x:](https://mesonbuild.com)'
 - build_scans_collaborative_debugging:
   title: 'Collaborative Debugging'
   bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
@@ -215,6 +241,7 @@
   gradle: '[:eight_spoked_asterisk:](https://docs.gradle.com/enterprise/get-started/#understand_your_dependencies)'
   make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
+  meson: '[:x:](https://mesonbuild.com)'
 - build_scans_compare_builds:
   title: 'Compare Builds'
   bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
@@ -223,6 +250,7 @@
   gradle: '[:eight_spoked_asterisk:](https://docs.gradle.com/enterprise/get-started/#compare_build_scans_to_find_differences)'
   make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
+  meson: '[:x:](https://mesonbuild.com)'
 - build_scans_extend_and_customize:
   title: 'Extend and Customize'
   bazel: '[:white_check_mark:](http://docs.bazel.build/versions/master/user-manual.html)'
@@ -231,6 +259,7 @@
   gradle: '[:white_check_mark:](https://blog.gradle.org/custom-data-in-build-scans)'
   make: '[:white_check_mark:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:white_check_mark:](http://scons.org/doc/production/HTML/scons-user.html)'
+  meson: '[:white_check_mark:](https://mesonbuild.com/)'
 - build_scans_track_and_export_history_across_all_builds:
   title: 'Track and Export History Across all Builds'
   bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
@@ -239,7 +268,7 @@
   gradle: '[:eight_spoked_asterisk:](https://docs.gradle.com/enterprise/)'
   make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
-
+  meson: '[:x:](https://mesonbuild.com)'
 - command_line_interface:
   title: '<b>Command Line Interface</b>'
   bazel: '[:heavy_minus_sign:](javascript:void(0);)'
@@ -248,6 +277,7 @@
   gradle: '[:heavy_minus_sign:](javascript:void(0);)'
   make: '[:heavy_minus_sign:](javascript:void(0);)'
   scons: '[:heavy_minus_sign:](javascript:void(0);)'
+  meson: '[:heavy_minus_sign:](javascript:void(0);)'
 - command_line_visualize_dependency_graph:
   title: 'Visualize Dependency Graph'
   bazel: '[:white_check_mark:](https://blog.bazel.build/2015/06/17/visualize-your-build.html)'
@@ -256,6 +286,7 @@
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/userguide_single.html#sec:listing_dependencies)'
   make: '[:white_check_mark:](https://github.com/lindenb/makefile2graph)'
   scons: '[:question:](https://bitbucket.org/scons/scons/wiki/VisualizeDependencies)'
+  meson: '[:x:](https://mesonbuild.com)'
 - command_line_interface_task_exclusion:
   title: 'Task Exclusion'
   bazel: '[:white_check_mark:](http://docs.bazel.build/versions/master/user-manual.html)'
@@ -264,6 +295,7 @@
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/tutorial_gradle_command_line.html#sec:excluding_tasks_from_the_command_line)'
   make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
+  meson: '[:x:](https://mesonbuild.com)'
 - command_line_interface_continuous_build:
   title: 'Continuous Build'
   bazel: '[:x:](http://docs.bazel.build/versions/master/user-manual.html)'
@@ -272,6 +304,7 @@
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/continuous_build.html)'
   make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
+  meson: '[:x:](https://mesonbuild.com)'
 - command_line_interface_composite_builds:
   title: 'Composite Builds'
   bazel: '[:white_check_mark:](https://bazel.build/)'
@@ -280,6 +313,7 @@
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/composite_builds.html#defining_composite_builds)'
   make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:question:](http://scons.org/doc/production/HTML/scons-user.html)'
+  meson: '[:white_check_mark:](https://mesonbuild.com/Subprojects.html)'
 - command_line_interface_dry_run:
   title: 'Dry Run'
   bazel: '[:white_check_mark:](https://docs.bazel.build/versions/master/command-line-reference.html)'
@@ -304,3 +338,4 @@
   gradle: '[:white_check_mark:](https://docs.gradle.org/current/userguide/dependency_management.html#sub:cache_refresh)'
   make: '[:x:](https://www.gnu.org/software/make/manual/make.html)'
   scons: '[:x:](http://scons.org/doc/production/HTML/scons-user.html)'
+  meson: '[:white_check_mark:](https://mesonbuild.com/Using-wraptool.html)'
